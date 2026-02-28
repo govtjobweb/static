@@ -19,7 +19,7 @@
 .gp-alpha-color-picker-container {
 	position: relative;
 	margin-left: 10px;
-	background-image: url(https://cdn.jsdelivr.net/gh/govtjobweb/com/static/helper/gp-premium/library/customizer/controls/css/transparency-grid.png);
+	background-image: url(https://govtjobweb.com/static/helper/gp-premium/library/customizer/controls/css/transparency-grid.png);
 }
 
 .gp-alpha-color-picker-container .iris-picker .iris-strip .ui-slider-handle {

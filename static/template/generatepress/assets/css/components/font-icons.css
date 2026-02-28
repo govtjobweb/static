@@ -1,7 +1,7 @@
 @font-face {
 	font-family: "GeneratePress";
-	src: url("https://govtjobweb.com/static/template/generatepress/assets/fonts/generatepress.eot");
-	src: url("https://govtjobweb.com/static/template/generatepress/assets/fonts/generatepress.eot#iefix") format("embedded-opentype"), url("https://govtjobweb.com/static/template/generatepress/assets/fonts/generatepress.woff2") format("woff2"), url("https://govtjobweb.com/static/template/generatepress/assets/fonts/generatepress.woff") format("woff"), url("https://govtjobweb.com/static/template/generatepress/assets/fonts/generatepress.ttf") format("truetype"), url("https://govtjobweb.com/static/template/generatepress/assets/fonts/generatepress.svg#GeneratePress") format("svg");
+	src: url("https://cdn.jsdelivr.net/gh/govtjobweb/com/static/template/generatepress/assets/fonts/generatepress.eot");
+	src: url("https://cdn.jsdelivr.net/gh/govtjobweb/com/static/template/generatepress/assets/fonts/generatepress.eot#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/govtjobweb/com/static/template/generatepress/assets/fonts/generatepress.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/govtjobweb/com/static/template/generatepress/assets/fonts/generatepress.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/govtjobweb/com/static/template/generatepress/assets/fonts/generatepress.ttf") format("truetype"), url("https://cdn.jsdelivr.net/gh/govtjobweb/com/static/template/generatepress/assets/fonts/generatepress.svg#GeneratePress") format("svg");
 	font-weight: normal;
 	font-style: normal;
 }

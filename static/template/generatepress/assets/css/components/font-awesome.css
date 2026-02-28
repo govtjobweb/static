@@ -6,8 +6,8 @@
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('https://govtjobweb.com/static/template/generatepress/assets/fonts/fontawesome-webfont.eot');
-  src: url('https://govtjobweb.com/static/template/generatepress/assets/fonts/fontawesome-webfont.eot#iefix') format('embedded-opentype'), url('https://govtjobweb.com/static/template/generatepress/assets/fonts/fontawesome-webfont.woff2') format('woff2'), url('https://govtjobweb.com/static/template/generatepress/assets/fonts/fontawesome-webfont.woff') format('woff'), url('https://govtjobweb.com/static/template/generatepress/assets/fonts/fontawesome-webfont.ttf') format('truetype'), url('https://govtjobweb.com/static/template/generatepress/assets/fonts/fontawesome-webfont.svg#fontawesomeregular') format('svg');
+  src: url('https://cdn.jsdelivr.net/gh/govtjobweb/com/static/template/generatepress/assets/fonts/fontawesome-webfont.eot');
+  src: url('https://cdn.jsdelivr.net/gh/govtjobweb/com/static/template/generatepress/assets/fonts/fontawesome-webfont.eot#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/govtjobweb/com/static/template/generatepress/assets/fonts/fontawesome-webfont.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/govtjobweb/com/static/template/generatepress/assets/fonts/fontawesome-webfont.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/govtjobweb/com/static/template/generatepress/assets/fonts/fontawesome-webfont.ttf') format('truetype'), url('https://cdn.jsdelivr.net/gh/govtjobweb/com/static/template/generatepress/assets/fonts/fontawesome-webfont.svg#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }

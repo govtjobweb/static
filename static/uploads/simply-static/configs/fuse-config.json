@@ -1,1 +1,1 @@
-{"selector":".search-field","threshold":"0.1"}
+{"selector":".search-field, .wp-block-search","threshold":"0.1"}

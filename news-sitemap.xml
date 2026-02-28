@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://govtjobweb.com/news-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://govtjobweb.com/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-news/0.9 http://www.google.com/schemas/sitemap-news/0.9/sitemap-news.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 	<url>
 		<loc>https://govtjobweb.com/mpesb-recruitment/</loc>
@@ -8,7 +8,7 @@
 				<news:language>en</news:language>
 			</news:publication>
 			<news:publication_date>2026-02-28T18:51:09+00:00</news:publication_date>
-			<news:title><![CDATA[MPESB Recruitment 2026 Open: 1679 Posts Available]]></news:title>
+			<news:title><![CDATA[MPESB Recruitment 2026: 1679 Forest Guard &amp; Jail Warder Posts – 10th Pass Apply Online]]></news:title>
 		</news:news>
 	</url>
 	<url>

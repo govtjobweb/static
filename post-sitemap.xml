@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://govtjobweb.com/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://govtjobweb.com/mpesb-recruitment/</loc>
-		<lastmod>2026-02-28T19:30:43+00:00</lastmod>
+		<loc>https://govtjobweb.com/rrc-western-railway-apprentice-recruitment/</loc>
+		<lastmod>2026-02-28T20:49:50+00:00</lastmod>
 		<image:image>
-			<image:loc>https://cdn.jsdelivr.net/gh/govtjobweb/com/static/uploads/2026/03/MPESB-Recruitment.webp</image:loc>
+			<image:loc>https://cdn.jsdelivr.net/gh/govtjobweb/com/static/uploads/2026/02/western-railway-apprentice.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://cdn.jsdelivr.net/gh/govtjobweb/com/static/uploads/2026/02/western-railway-apprentice.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://govtjobweb.com/rrc-western-railway-apprentice-recruitment/</loc>
-		<lastmod>2026-02-28T09:50:46+00:00</lastmod>
+		<loc>https://govtjobweb.com/mpesb-recruitment/</loc>
+		<lastmod>2026-02-28T20:48:38+00:00</lastmod>
 		<image:image>
-			<image:loc>https://cdn.jsdelivr.net/gh/govtjobweb/com/static/uploads/2026/02/western-railway-apprentice.webp</image:loc>
+			<image:loc>https://cdn.jsdelivr.net/gh/govtjobweb/com/static/uploads/2026/03/MPESB-Recruitment.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://cdn.jsdelivr.net/gh/govtjobweb/com/static/uploads/2026/03/MPESB-Recruitment.webp</image:loc>
 		</image:image>
 	</url>
 	<url>

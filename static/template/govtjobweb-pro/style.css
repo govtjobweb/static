@@ -1,0 +1,268 @@
+/*
+ Theme Name:   govtjobweb
+ Theme URI:    https://govtjobweb.com
+ Description:  Default GeneratePress child theme
+ Author:       GovtJobWeb
+ Author URI:   https://govtjobweb.com
+ Template:     generatepress
+ Version:      0.1
+*/
+
+.main-navigation {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.wp-block-search__inside-wrapper button {
+	background: var(--search-color);
+	border-radius: 0 30px 30px 0;
+	padding: 0 25px 0 25px;
+	margin-left: 0px;
+}
+
+#wp-block-search__input-1 {
+	border-radius: 30px 0 0 30px;
+}
+
+.rank-math-breadcrumb p {
+	font-size: 13px;
+	margin-bottom: 0px;
+	color:#666;
+}
+
+/*Follow Us Button*/
+.whatsapphighlight {
+	animation: WPLiteTheme-GreenBorderAnimation 1s infinite;
+}
+@keyframes WPLiteTheme-GreenBorderAnimation {
+	0% {
+		border-color: transparent;
+	}
+	50% {
+		border-color: #25d366;
+	}
+	100% {
+		border-color: transparent;
+	}
+}
+.telegramhighlight {
+	animation: WPLiteTheme-BlueBorderAnimation 1s infinite;
+}
+@keyframes WPLiteTheme-BlueBorderAnimation {
+	0% {
+		border-color: transparent;
+	}
+	50% {
+		border-color: #0086ce;
+	}
+	100% {
+		border-color: transparent;
+	}
+}
+
+/*social-sharing-buttons*/
+.wpjankari-social-wrapper {
+    margin: 10px;
+    font-size: 0;
+    text-align: center;
+	display: flex;
+    flex-wrap: wrap;
+}
+.wpjankari-social-sharing {
+	padding: 8px;
+	margin: 4px;
+	border-radius: 3px;
+    flex: 1;
+    transition: background-color 0.3s, transform 0.3s, color 0.3s;
+}
+.wpjankari-social-sharing:hover {
+	transform: translateY(-3px);
+	border: none;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+@media only screen and (max-width: 600px) {
+    .wpjankari-social-sharing {
+		display: inline-block;
+    }
+}
+.wpjankari-social-sharing svg {
+    position: relative;
+    top: 0.15em;
+    display: inline-block;
+}
+.wpjankari-social-facebook {
+    fill: #fff;
+    background-color: rgba(59, 89, 152, 1);
+}
+.wpjankari-social-twitter {
+    fill: #fff;
+    background-color: rgba(0, 0, 0);
+}
+.wpjankari-social-whatsapp {
+    fill: #fff;
+    background-color: rgba(37, 211, 102, 1);
+}
+.wpjankari-social-telegram {
+    fill: #fff;
+    background-color: rgb(2, 126, 189);
+}
+.wpjankari-social-more {
+    fill: #fff;
+    background-color: rgba(0, 0, 0);
+}
+/*Patterns*/
+.downloadhighlight {
+	animation: WPLiteTheme-LiteGreenBorderAnimation 1s infinite;
+}
+@keyframes WPLiteTheme-LiteGreenBorderAnimation {
+	0% {
+		border-color: transparent;
+	}
+	50% {
+		border-color: #19b051;
+	}
+	100% {
+		border-color: transparent;
+	}
+}
+.applynowhighlight {
+	animation: WPLiteTheme-LiteBlueBorderAnimation 1s infinite;
+}
+@keyframes WPLiteTheme-LiteBlueBorderAnimation {
+	0% {
+		border-color: transparent;
+	}
+	50% {
+		border-color: #3f84d3;
+	}
+	100% {
+		border-color: transparent;
+	}
+}
+
+/* Desktop: show full menu, hide slideout toggle */
+.slideout-toggle {
+    display: none;
+}
+
+/* Tablet range (where menu starts wrapping) */
+@media (max-width: 1200px) and (min-width: 769px) {
+
+    /* Hide categories menu */
+    #primary-menu {
+        display: none !important;
+    }
+
+    /* Show slideout toggle */
+    .slideout-toggle {
+        display: block !important;
+    }
+}
+
+/* Search popup styling */
+.ssp-search{
+background:rgba(255,255,255,0.08);
+border:1px solid rgba(255,255,255,0.15);
+border-radius:18px;
+padding:30px;
+backdrop-filter:blur(12px);
+box-shadow:0 25px 60px rgba(0,0,0,0.4);
+max-width:720px;
+margin:120px auto 0;
+animation:searchPopup .35s ease;
+}
+
+/* animation */
+@keyframes searchPopup{
+from{
+opacity:0;
+transform:translateY(-40px) scale(.95);
+}
+to{
+opacity:1;
+transform:translateY(0) scale(1);
+}
+}
+
+/* Search row */
+.ssp-search .form-row{
+display:flex;
+gap:8px;
+}
+
+/* Input */
+.search-input{
+flex:1;
+height:54px;
+border-radius:14px;
+border:1px solid rgba(255,255,255,0.2);
+background:#fff;
+padding:0 18px;
+font-size:16px;
+outline:none;
+transition:.25s;
+}
+
+/* focus effect */
+.search-input:focus{
+border-color:#1e73be;
+box-shadow:0 0 0 3px rgba(30,115,190,.25);
+}
+
+/* RED Submit button */
+.search-submit{
+height:54px;
+padding:0 24px;
+border:none;
+border-radius:14px;
+background:linear-gradient(135deg,#ff3b3b,#d90000);
+color:#fff;
+font-weight:600;
+cursor:pointer;
+transition:.25s;
+}
+
+/* hover */
+.search-submit:hover{
+background:linear-gradient(135deg,#e60000,#b80000);
+transform:translateY(-1px);
+box-shadow:0 8px 20px rgba(0,0,0,0.25);
+}
+
+/* results */
+.ssp-search .result{
+margin-top:18px;
+max-height:320px;
+overflow:auto;
+}
+.search-input-container{
+position:relative;
+}
+
+.search-auto-complete ul{
+list-style:none;
+margin:0;
+padding:0;
+}
+
+.search-auto-complete ul a{
+display:block;
+width:100%;
+text-decoration:none;
+color:#222;
+}
+
+.auto-complete-item{
+display:block;
+width:100%;
+padding:14px 18px;
+border-bottom:1px solid #eee;
+font-size:15px;
+font-weight:600;
+background:#fff;
+box-sizing:border-box;
+}
+
+.auto-complete-item:hover{
+background:#f4f8ff;
+color:#1e73be;
+}
